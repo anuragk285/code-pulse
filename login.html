@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div class="login-form">
+        <div class="leftPart-login-form">
+            <h1>Master the art of CODE</h1>
+            <p>A high-performance e-learning platform designed for aspiring developers.</p>
+            <div class="glassy">
+                <i>"CodePulse finally broke me out of tutorial hell and made me into production-grade engineering."</i>
+                <div class="commentor">
+                    <img src="images/commentor.png" alt="">
+                    <div class="commentor-details">
+                        <p class="commentor-name">Josh cameau</p>
+                        <p class="commentor-designation">senior engineer, Gatsby</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="enroll-form">
+            <form>
+                <h1>Join the Atelier</h1>
+                <p>Complete your profile to start your learning journey.</p>
+                <label for="fname">FULL NAME </label><br>
+                <input id="username" type="text" placeholder="Jonathan Doe" name="fname" required><br><br>
+                <p id="username-message-box"></p>
+                <label for="email">EMAIL ADDRESS </label><br>
+                <input id="user-email" type="email" placeholder="john@email.com" name="email" required><br><br>
+                <p id="user-email-message-box"></p>
+                <div class="password-section">
+                    <label for="password">PASSWORD </label>
+                    <label for="confirm-password">CONFIRM PASSWORD </label>
+                    <input id="user-password" type="password" name="password" required>
+                    <input id="user-confirm-password" type="password" name="confirm-password" required>
+                    <p id="password-message-box"></p>
+                    <p id="confirm-password-message-box"></p>
+                </div>
+                <button class="btn-primary" id="register-btn" type="submit">Register</button>
+                <div class="or-options">
+                    <p id="or-options-text">OR JOIN WITH</p>
+                </div>
+                <div class="signin-options">
+                    <button class="signin-btn with-google"><img src="images/googleLogo.png" alt="" class="signin-options-logo">Google</button>
+                    <button class="signin-btn with-github"><img src="images/githubLogo.png" alt="" class="signin-options-logo">GitHub</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="scripts/login.js" type="module"></script>
+</body>
+</html>

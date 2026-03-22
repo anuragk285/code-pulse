@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course-collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="courses_data.xsd">
+    <course-details>
+        <rating>4.9</rating>
+        <no-of-ratings>1240</no-of-ratings>
+        <course>
+            <title>Advanced React Design Systems</title>
+            <description>Build professional-grade UI kits with Tailwind and TypeScript.</description>
+            <id>0</id>
+        </course>
+        <tutor>
+            <name>Sarah Drasner</name>
+            <designation>Engineering Leader</designation>
+            <experience>Specialist in SVG animations and scalable web architecture.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Atomic Design Principles</title><description>Breaking UI into atoms and molecules.</description></chapter>
+            <chapter><number>2</number><title>Tailwind Configuration</title><description>Setting up design tokens.</description></chapter>
+            <chapter><number>3</number><title>Component API Design</title><description>Creating flexible props for reusable buttons.</description></chapter>
+            <chapter><number>4</number><title>State Management</title><description>Using Headless UI for accessibility.</description></chapter>
+            <chapter><number>5</number><title>Documentation</title><description>Deploying a living style guide.</description></chapter>
+            <chapter><number>6</number><title>Testing Components</title><description>Unit testing with Vitest and RTL.</description></chapter>
+        </curriculum>
+        <price><old-price>2,999</old-price><new-price>499</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/1362070_b9a1_2.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.8</rating>
+        <no-of-ratings>850</no-of-ratings>
+        <course>
+            <title>Node.js Microservices Architecture</title>
+            <description>Mastering distributed systems and Docker orchestration.</description>
+            <id>1</id>
+        </course>
+        <tutor>
+            <name>Stephen Grider</name>
+            <designation>Full Stack Architect</designation>
+            <experience>Expert in large-scale system design.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Microservices Intro</title><description>Monolith vs Microservices.</description></chapter>
+            <chapter><number>2</number><title>NATS JetStream</title><description>Event-based communication.</description></chapter>
+            <chapter><number>3</number><title>Dockerizing Services</title><description>Multi-stage builds.</description></chapter>
+            <chapter><number>4</number><title>Kubernetes Basics</title><description>Pods and Deployments.</description></chapter>
+            <chapter><number>5</number><title>Auth Strategies</title><description>Centralized JWT handling.</description></chapter>
+            <chapter><number>6</number><title>Error Handling</title><description>Dead Letter Queues.</description></chapter>
+            <chapter><number>7</number><title>Service Discovery</title><description>How services find each other.</description></chapter>
+            <chapter><number>8</number><title>Load Balancing</title><description>Ingress-Nginx configuration.</description></chapter>
+            <chapter><number>9</number><title>Database Per Service</title><description>Data consistency patterns.</description></chapter>
+        </curriculum>
+        <price><old-price>4,500</old-price><new-price>699</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/6743757_f56a_10.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.7</rating>
+        <no-of-ratings>2100</no-of-ratings>
+        <course>
+            <title>Data Science for Real Estate</title>
+            <description>Using Python to predict property prices.</description>
+            <id>2</id>
+        </course>
+        <tutor>
+            <name>Dr. Angela Yu</name>
+            <designation>Lead Instructor</designation>
+            <experience>Developer and Educator.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Pandas Deep Dive</title><description>Cleaning datasets.</description></chapter>
+            <chapter><number>2</number><title>Matplotlib Visuals</title><description>Creating heatmaps.</description></chapter>
+            <chapter><number>3</number><title>Regression Analysis</title><description>Predictive models.</description></chapter>
+            <chapter><number>4</number><title>Scikit-Learn</title><description>Tuning hyperparameters.</description></chapter>
+            <chapter><number>5</number><title>Streamlit Dashboards</title><description>Interactive web apps.</description></chapter>
+        </curriculum>
+        <price><old-price>3,200</old-price><new-price>499</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/6833239_16c7_2.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.9</rating>
+        <no-of-ratings>430</no-of-ratings>
+        <course>
+            <title>Ethical Hacking: Network Security</title>
+            <description>Identify and patch vulnerabilities.</description>
+            <id>3</id>
+        </course>
+        <tutor>
+            <name>Zaid Sabih</name>
+            <designation>Security Researcher</designation>
+            <experience>Professional penetration tester.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Reconnaissance</title><description>Information gathering.</description></chapter>
+            <chapter><number>2</number><title>Nmap Scanning</title><description>Network discovery.</description></chapter>
+            <chapter><number>3</number><title>Metasploit Basics</title><description>Exploitation framework.</description></chapter>
+            <chapter><number>4</number><title>Payload Delivery</title><description>Bypassing antivirus.</description></chapter>
+            <chapter><number>5</number><title>Privilege Escalation</title><description>Becoming Root/Admin.</description></chapter>
+            <chapter><number>6</number><title>Wireless Security</title><description>Cracking WPA3.</description></chapter>
+            <chapter><number>7</number><title>MITM Attacks</title><description>Intercepting traffic.</description></chapter>
+            <chapter><number>8</number><title>Final Lab</title><description>Full network penetration test.</description></chapter>
+        </curriculum>
+        <price><old-price>5,999</old-price><new-price>799</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/6193991_b6f6.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.6</rating>
+        <no-of-ratings>980</no-of-ratings>
+        <course>
+            <title>Flutter &amp; Firebase Masterclass</title>
+            <description>Build full-stack mobile applications.</description>
+            <id>4</id>
+        </course>
+        <tutor>
+            <name>Max Schwarzmüller</name>
+            <designation>Freelance Developer</designation>
+            <experience>Mobile Dev Expert.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Dart Intro</title><description>Async/Await basics.</description></chapter>
+            <chapter><number>2</number><title>UI Widgets</title><description>Stateless vs Stateful.</description></chapter>
+            <chapter><number>3</number><title>Navigation</title><description>Push/Pop and Named routes.</description></chapter>
+            <chapter><number>4</number><title>Firebase Auth</title><description>Google &amp; Email login.</description></chapter>
+            <chapter><number>5</number><title>Cloud Firestore</title><description>CRUD operations.</description></chapter>
+            <chapter><number>6</number><title>Cloud Functions</title><description>Backend logic in JS.</description></chapter>
+            <chapter><number>7</number><title>Push Notifications</title><description>FCM integration.</description></chapter>
+        </curriculum>
+        <price><old-price>3,500</old-price><new-price>550</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/4237450_54d3_2.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.9</rating>
+        <no-of-ratings>3200</no-of-ratings>
+        <course>
+            <title>Competitive Programming &amp; Graph Mastery</title>
+            <description>The ultimate guide to acing coding interviews.</description>
+            <id>5</id>
+        </course>
+        <tutor>
+            <name>Striver</name>
+            <designation>Software Engineer</designation>
+            <experience>SDE at Top Tier Company.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>DFS/BFS</title><description>Graph traversals.</description></chapter>
+            <chapter><number>2</number><title>Cycle Detection</title><description>Directed &amp; Undirected.</description></chapter>
+            <chapter><number>3</number><title>Topological Sort</title><description>Kahn’s Algorithm.</description></chapter>
+            <chapter><number>4</number><title>Dijkstra’s</title><description>Shortest path.</description></chapter>
+            <chapter><number>5</number><title>Bellman-Ford</title><description>Negative edges.</description></chapter>
+            <chapter><number>6</number><title>MST</title><description>Prims &amp; Kruskals.</description></chapter>
+            <chapter><number>7</number><title>Disjoint Set</title><description>Union by Rank/Size.</description></chapter>
+            <chapter><number>8</number><title>Bridges in Graph</title><description>Tarjan’s Algorithm.</description></chapter>
+            <chapter><number>9</number><title>Articulation Points</title><description>Critical nodes.</description></chapter>
+            <chapter><number>10</number><title>Max Flow</title><description>Network flow theory.</description></chapter>
+        </curriculum>
+        <price><old-price>1,200</old-price><new-price>499</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/2488298_97c1_7.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.5</rating>
+        <no-of-ratings>210</no-of-ratings>
+        <course>
+            <title>Design Systems in Figma</title>
+            <description>Scale your workflow with Variables and Components.</description>
+            <id>6</id>
+        </course>
+        <tutor>
+            <name>Gary Simon</name>
+            <designation>UI/UX Specialist</designation>
+            <experience>20 years design experience.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Typography</title><description>Scales and Hierarchy.</description></chapter>
+            <chapter><number>2</number><title>Semantic Color</title><description>Designing for Dark Mode.</description></chapter>
+            <chapter><number>3</number><title>Auto-Layout</title><description>Responsive nesting.</description></chapter>
+            <chapter><number>4</number><title>Variables</title><description>Logic in Figma.</description></chapter>
+            <chapter><number>5</number><title>Handoff</title><description>Preparing for Devs.</description></chapter>
+        </curriculum>
+        <price><old-price>1,800</old-price><new-price>399</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/4521802_e512_2.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.8</rating>
+        <no-of-ratings>560</no-of-ratings>
+        <course>
+            <title>CI/CD with GitHub Actions</title>
+            <description>Automate your deployment pipeline.</description>
+            <id>7</id>
+        </course>
+        <tutor>
+            <name>Jason Cannon</name>
+            <designation>Linux Admin</designation>
+            <experience>Automation Expert.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>YAML Intro</title><description>Workflow syntax.</description></chapter>
+            <chapter><number>2</number><title>Action Triggers</title><description>Push, Pull, Cron.</description></chapter>
+            <chapter><number>3</number><title>Testing Jobs</title><description>Running Node/Python tests.</description></chapter>
+            <chapter><number>4</number><title>Secret Management</title><description>Handling API keys.</description></chapter>
+            <chapter><number>5</number><title>Docker Push</title><description>Auto-building images.</description></chapter>
+            <chapter><number>6</number><title>AWS Deploy</title><description>EC2 automation.</description></chapter>
+        </curriculum>
+        <price><old-price>₹2,499</old-price><new-price>599</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/6651689_5ad2_2.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>4.7</rating>
+        <no-of-ratings>340</no-of-ratings>
+        <course>
+            <title>PostgreSQL for High Performance</title>
+            <description>Optimize queries and database design.</description>
+            <id>8</id>
+        </course>
+        <tutor>
+            <name>Hitesh Choudhary</name>
+            <designation>Technical Educator</designation>
+            <experience>Software Engineer.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Normalization</title><description>Database design rules.</description></chapter>
+            <chapter><number>2</number><title>B-Tree Indexes</title><description>Speeding up searches.</description></chapter>
+            <chapter><number>3</number><title>EXPLAIN ANALYZE</title><description>Debugging slow queries.</description></chapter>
+            <chapter><number>4</number><title>JSONB Fields</title><description>NoSQL in Postgres.</description></chapter>
+            <chapter><number>5</number><title>Views &amp; Triggers</title><description>Automating data logic.</description></chapter>
+            <chapter><number>6</number><title>Transactions</title><description>ACID properties.</description></chapter>
+            <chapter><number>7</number><title>Replication</title><description>Read replicas.</description></chapter>
+            <chapter><number>8</number><title>Partitioning</title><description>Handling massive tables.</description></chapter>
+        </curriculum>
+        <price><old-price>1,500</old-price><new-price>449</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/762616_7693_3.jpg</img-src>
+    </course-details>
+
+    <course-details>
+        <rating>5.0</rating>
+        <no-of-ratings>110</no-of-ratings>
+        <course>
+            <title>n8n: Agentic AI Automation</title>
+            <description>Connect apps and AI without code.</description>
+            <id>9</id>
+        </course>
+        <tutor>
+            <name>AI Agent Master</name>
+            <designation>Automation Specialist</designation>
+            <experience>Low-code Consultant.</experience>
+        </tutor>
+        <curriculum>
+            <chapter><number>1</number><title>Webhooks</title><description>Listening for data.</description></chapter>
+            <chapter><number>2</number><title>JSON Expressions</title><description>Dynamic data handling.</description></chapter>
+            <chapter><number>3</number><title>AI Nodes</title><description>Using GPT-4 in n8n.</description></chapter>
+            <chapter><number>4</number><title>Conditional Logic</title><description>If/Else branching.</description></chapter>
+            <chapter><number>5</number><title>Agentic Loops</title><description>Self-correcting AI flows.</description></chapter>
+        </curriculum>
+        <price><old-price>4,999</old-price><new-price>899</new-price></price>
+        <img-src>https://img-c.udemycdn.com/course/240x135/6723695_6a8d_2.jpg</img-src>
+    </course-details>
+</course-collection>

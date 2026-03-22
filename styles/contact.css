@@ -1,0 +1,138 @@
+.toPrimary{
+    color: var(--color-primary);
+}
+body{
+    background-color: var(--color-bg-alt);    
+}
+.main{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.title, .title-description{
+    margin-left: 2rem;
+}
+.title{
+    margin-top: 2rem;
+}
+#form{
+    padding: 2rem;
+    background-color: var(--color-bg);
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+    &>form {
+        color: #727785;
+        *{color: inherit}
+        button{
+            color: white;
+        }
+        h1{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+        }
+        label{
+            font-size: 10px;
+            line-height: 15px;
+        }
+        input{
+            margin-top: 4px;
+        }
+        select{
+            width: 100%;
+            padding: 16px 12px;
+        }
+        textarea{
+            height: 8rem;
+            padding: 1rem;
+        }
+    }
+}
+.base-style{
+    width: 100%;
+    padding: 16px 12px;
+    background-color: #F2F4F6;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 1rem;
+}
+.name-email{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 6%;
+}
+.btn-primary{
+    background: linear-gradient(to right, var(--color-primary-hover), var(--color-primary));
+    border-radius: 12px;
+    padding: 18px 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    &:hover{
+        .arrow {
+            transform: translateX(10px); 
+        }
+    }
+}
+.send-message-icon{
+    width: 20px;
+    margin-left: 10px;
+    color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+.company-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-element{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-bg);
+    border-radius: 12px;
+    img{
+        width: 25px;
+        height: 25px;
+        margin-right: 1rem;
+        transition: width 0.3s ease,
+                    height 0.3s ease;
+    }
+    &:hover{
+        &>img{
+            width: 35px;
+            height: 35px;
+        }
+    }
+    margin-bottom: 2rem;
+}
+.contact-details{
+    &>*{margin: 0.5rem}
+    p{
+        color: var(--secondary-text-clr);
+    }
+}
+.terms-conditions{
+    margin-top: 1rem;
+   text-align: center;
+   font-size: 14px; 
+   color: var(--secondary-text-clr);
+    &>a{
+        color: var(--color-primary);
+    }
+}

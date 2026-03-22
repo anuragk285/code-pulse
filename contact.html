@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <h1 class="title">Let's start a <span class="toPrimary">conversation .</span></h1>
+    <p class="title-description">Whether you're looking for course details, technical support, or partnership <br> opportunities, our team is here to help you navigate your learning journey.</p>
+    <div class="main">
+        <div class="company-details">
+            <div class="contact-element">
+                <img src="images/locationIcon.png" alt="">
+                <div class="contact-details">
+                    <h2>The Pulse HQ</h2>
+                    <p>Cbit Hyderabad,</p>
+                    <p>Telangana, Inida</p>
+                </div>
+            </div>
+            <div class="contact-element">
+                <img src="images/emailIcon.png" alt="">
+                <div class="contact-details">
+                    <h2>Email US</h2>
+                    <p>hello@codepulse.edu</p>
+                    <p>support@codepulse.edu</p>
+                </div>
+            </div>
+            <div class="contact-element">
+                <img src="images/contactIcon.png" alt="">
+                <div class="contact-details">
+                    <h2>Call Directly</h2>
+                    <p>+91 98765 43210</p>
+                    <p>Mon - Fri, 9am - 4pm IST</p>
+                </div>
+            </div>
+        </div>
+        <div id="form">
+            <form>
+                <div class="name-email">
+                    <label for="name">NAME</label>
+                    <label for="email">EMAIL</label>
+                    <input id="username" type="text" for="name" class="base-style" placeholder="John" required>
+                    <input id="user-email" type="eamil" for="email" class="base-style" placeholder="john@mail.com" required>
+                    <p id="username-message-box"></p>
+                    <p id="user-email-message-box"></p>
+                </div>
+                <label for="subject">SUBJECT</label><br>
+                <select name="subject" class="base-style">
+                    <option value="1">General Inquiry</option>
+                    <option value="2">Course Enrollment</option>
+                    <option value="3">Technical Support</option>
+                    <option value="4">Business Partnership</option>
+                </select>
+                <label for="message">MESSAGE</label>
+                <textarea id="textarea-message" class="base-style" name="message" placeholder="Tell us how we can help you..."></textarea>
+                <p id="textarea-message-box"></p>
+                <button class="btn-primary" type="submit">Send Message <span class="arrow">→</span></button>
+            </form>
+            <p class="terms-conditions">By clicking send, you agree to our <a href="#">Privacy Policy</a> regarding your personal data.</p>
+            
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="scripts/contact.js" type="module"></script>
+</body>
+</html>

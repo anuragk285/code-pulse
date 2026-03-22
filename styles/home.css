@@ -1,0 +1,67 @@
+:root{
+    --primary-text-clr: #0f172a;
+    --secondary-text-clr: #475569;
+    --muted-text-clr: #94a3b8;
+    --color-primary: #3b82f6;
+    --color-primary-hover: #2563eb;
+    --color-bg: #ffffff;
+    --color-bg-alt: #f8fafc;
+    --color-border: #e2e8f0;
+    --color-success: #10b981; 
+    --color-error: #ef4444;
+}
+
+body{
+    background-color: var(--color-bg-alt);
+}
+
+#hero{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    column-gap: 10%;
+    
+}
+.hero-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+#title{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+.toPrimary{
+    color: var(--color-primary-hover);
+}
+.description{
+    color: var(--secondary-text-clr);
+    margin: 1rem 0;
+}
+.hero-btns{
+    margin: 1rem 0;
+}
+#login-btn{
+    padding: 12px 22px;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    border: none;
+    color: white;
+    background: linear-gradient(to right, var(--color-primary-hover), var(--color-primary));
+    cursor: pointer;
+    transition: background 0.5s ease-in;
+}
+#browse-courses-btn{
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 6px;
+    color: var(--primary-text-clr)
+}
+#hero-img{
+    border-radius: 16px;
+}
+
