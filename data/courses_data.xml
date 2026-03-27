@@ -6,7 +6,8 @@
         <no-of-ratings>1240</no-of-ratings>
         <course>
             <title>Advanced React Design Systems</title>
-            <description>Build professional-grade UI kits with Tailwind and TypeScript.</description>
+            <sub-title>Build professional-grade UI kits with Tailwind and TypeScript.</sub-title>
+            <description>Master the art of building scalable, professional-grade UI kits that stand the test of time. This course dives deep into Atomic Design Principles, teaching you how to break complex interfaces into reusable atoms and molecules. You will learn to leverage Tailwind CSS for robust design tokens and TypeScript for type-safe component APIs. Beyond just styling, we explore accessibility using Headless UI and state management for complex components. By the end of this bootcamp, you will be proficient in unit testing with Vitest and deploying a living style guide. This is the definitive guide for developers looking to lead frontend architecture and design systems in modern engineering teams.</description>
             <id>0</id>
         </course>
         <tutor>
@@ -32,7 +33,8 @@
         <no-of-ratings>850</no-of-ratings>
         <course>
             <title>Node.js Microservices Architecture</title>
-            <description>Mastering distributed systems and Docker orchestration.</description>
+            <sub-title>Mastering distributed systems and Docker orchestration.</sub-title>
+            <description>Step away from monolithic constraints and enter the world of distributed systems and high-scale orchestration. Led by Stephen Grider, this masterclass covers everything from event-based communication with NATS JetStream to multi-stage Docker builds. You will gain hands-on experience with Kubernetes, learning to manage pods, deployments, and ingress-nginx configurations. The curriculum prioritizes security through centralized JWT handling and reliability using Dead Letter Queues for error management. We also tackle the "Database Per Service" pattern to ensure true data consistency. Prepare to architect resilient, scalable backends that power the world’s most demanding applications.</description>
             <id>1</id>
         </course>
         <tutor>
@@ -61,14 +63,15 @@
         <no-of-ratings>2100</no-of-ratings>
         <course>
             <title>Data Science for Real Estate</title>
-            <description>Using Python to predict property prices.</description>
+            <sub-title>Using Python to predict property prices.</sub-title>
+            <description>Unlock the predictive power of data in one of the world’s most lucrative industries. Using Python as your primary tool, you will go from cleaning massive property datasets with Pandas to creating stunning heatmaps in Matplotlib. Dr. Angela Yu guides you through complex regression analysis and hyperparameter tuning with Scikit-Learn to build accurate price-prediction models. You won’t just run scripts; you will build interactive, client-ready web dashboards using Streamlit. This course bridges the gap between raw data and actionable business intelligence. It is perfect for analysts and developers who want to specialize in high-stakes financial and property markets.</description>
             <id>2</id>
         </course>
         <tutor>
             <name>Dr. Angela Yu</name>
             <designation>Lead Instructor</designation>
             <experience>Developer and Educator.</experience>
-            <img>https://img-c.udemycdn.com/user/200_H/34123448_bea6.jpg</img>
+            <img>https://img-c.udemycdn.com/user/200_H/31334738_a13c_3.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Pandas Deep Dive</title><description>Cleaning datasets.</description></chapter>
@@ -86,7 +89,8 @@
         <no-of-ratings>430</no-of-ratings>
         <course>
             <title>Ethical Hacking: Network Security</title>
-            <description>Identify and patch vulnerabilities.</description>
+            <sub-title>Identify and patch vulnerabilities.</sub-title>
+            <description>Enter the mindset of a professional penetration tester to identify, exploit, and patch critical vulnerabilities. This comprehensive bootcamp starts with advanced reconnaissance and Nmap network discovery before moving into the Metasploit framework. You will learn the art of payload delivery and how to bypass modern antivirus software through stealthy execution. The course dives deep into privilege escalation, wireless security cracking (WPA3), and intercepting traffic via MITM attacks. Finally, you will put your skills to the test in a capstone lab—a full-scale network penetration test. Secure your career by learning how to defend infrastructure through the lens of a security researcher.</description>
             <id>3</id>
         </course>
         <tutor>
@@ -114,7 +118,8 @@
         <no-of-ratings>980</no-of-ratings>
         <course>
             <title>Flutter &amp; Firebase Masterclass</title>
-            <description>Build full-stack mobile applications.</description>
+            <sub-title>Build full-stack mobile applications.</sub-title>
+            <description>Build beautiful, high-performance mobile applications for both iOS and Android from a single codebase. This masterclass takes you through the Dart programming language, mastering async/await logic and reactive UI widgets. You will learn to handle complex navigation and deep-link routing before integrating the power of Firebase. We cover everything from Google and Email authentication to real-time CRUD operations with Cloud Firestore. You will also build server-side logic using Cloud Functions and engage users with Push Notifications via FCM. It is the ultimate project-first path to becoming a professional full-stack mobile developer in record time.</description>
             <id>4</id>
         </course>
         <tutor>
@@ -141,7 +146,8 @@
         <no-of-ratings>3200</no-of-ratings>
         <course>
             <title>Competitive Programming &amp; Graph Mastery</title>
-            <description>The ultimate guide to acing coding interviews.</description>
+            <sub-title>The ultimate guide to acing coding interviews.</sub-title>
+            <description>Ace the world’s toughest coding interviews by mastering the most complex data structures and algorithms. Striver takes you through an exhaustive journey of graph theory, from basic DFS/BFS to advanced concepts like Tarjan’s Algorithm and Network Flow. You will master shortest-path algorithms like Dijkstra’s and Bellman-Ford, along with MST construction using Prims and Kruskals. The course focuses on the "why" behind the logic, helping you solve cycle detection, topological sorting, and articulation point problems with ease. This is a high-intensity curriculum designed for developers aiming for SDE roles at top-tier tech giants like Google, Amazon, and Meta.</description>
             <id>5</id>
         </course>
         <tutor>
@@ -171,7 +177,8 @@
         <no-of-ratings>210</no-of-ratings>
         <course>
             <title>Design Systems in Figma</title>
-            <description>Scale your workflow with Variables and Components.</description>
+            <sub-title>Scale your workflow with Variables and Components.</sub-title>
+            <description>Transform your creative workflow into a scalable, logic-driven design engine. Gary Simon brings 20 years of expertise to teach you how to build robust typography scales, semantic color palettes, and responsive layouts. You will dive into the power of Figma Variables to create dark mode transitions and complex component logic. The course emphasizes the "Design-as-Code" philosophy, utilizing auto-layout nesting and reusable variants to speed up your production time. Most importantly, you will learn the secrets of a perfect developer handoff, ensuring your designs are implemented with pixel-perfect accuracy. It is an essential masterclass for UI/UX specialists ready to work at an enterprise level.</description>
             <id>6</id>
         </course>
         <tutor>
@@ -196,7 +203,8 @@
         <no-of-ratings>560</no-of-ratings>
         <course>
             <title>CI/CD with GitHub Actions</title>
-            <description>Automate your deployment pipeline.</description>
+            <sub-title>Automate your deployment pipeline.</sub-title>
+            <description>Automate your way to professional engineering by mastering the modern deployment pipeline. This course simplifies the complexity of YAML syntax and workflow triggers like push, pull, and cron jobs. You will learn to build automated testing environments for Node.js and Python, ensuring your code is production-ready before it ever hits the server. We cover critical security topics like Secret Management for API keys and auto-building Docker images for containerized apps. Finally, you will automate your AWS infrastructure deployment using EC2 integrations. Stop deploying manually and start shipping code like a senior DevOps engineer with the power of GitHub Actions.</description>
             <id>7</id>
         </course>
         <tutor>
@@ -222,7 +230,8 @@
         <no-of-ratings>340</no-of-ratings>
         <course>
             <title>PostgreSQL for High Performance</title>
-            <description>Optimize queries and database design.</description>
+            <sub-title>Optimize queries and database design.</sub-title>
+            <description>Don’t just store data; learn how to optimize it for extreme speed and reliability. This course teaches the core principles of database normalization and the internal mechanics of B-Tree Indexes. You will learn to use EXPLAIN ANALYZE to pinpoint and fix slow-running queries that are dragging down your application performance. We explore the versatility of JSONB for NoSQL workloads and the automation power of Views and Triggers. The curriculum also covers high-availability topics like read replicas, transaction ACID properties, and table partitioning for massive datasets. It is the perfect deep-dive for backend developers who want to become experts in database architecture.</description>
             <id>8</id>
         </course>
         <tutor>
@@ -250,7 +259,8 @@
         <no-of-ratings>110</no-of-ratings>
         <course>
             <title>n8n: Agentic AI Automation</title>
-            <description>Connect apps and AI without code.</description>
+            <sub-title>Connect apps and AI without code.</sub-title>
+            <description>Join the revolution of autonomous workflows by building sophisticated AI agents without writing a single line of code. This course starts with the fundamentals of Webhooks and dynamic data handling through JSON expressions. You will then integrate GPT-4 directly into your n8n workflows using specialized AI nodes and conditional branching logic. The highlight of the course is mastering Agentic Loops, where you build self-correcting AI flows that can handle complex, multi-step tasks independently. Whether you are a consultant or a founder, this course empowers you to connect hundreds of apps and automate your business at the speed of thought.</description>
             <id>9</id>
         </course>
         <tutor>

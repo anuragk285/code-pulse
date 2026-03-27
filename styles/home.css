@@ -9,6 +9,8 @@
     --color-border: #e2e8f0;
     --color-success: #10b981; 
     --color-error: #ef4444;
+    --primary-container: rgba(59, 130, 246, 0.1);
+    --on-primary: #ffffff;
 }
 
 body{
@@ -17,16 +19,15 @@ body{
 
 #hero{
     margin: 2rem;
-    display: grid;
-    grid-template-columns: 50% 40%;
-    column-gap: 10%;
-    
+    display: flex;
+    justify-content: space-between;
 }
 .hero-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding-right: 2rem;
 }
 #title{
     font-size: 48px;
@@ -62,6 +63,109 @@ body{
     color: var(--primary-text-clr)
 }
 #hero-img{
-    border-radius: 16px;
+    width: 32rem;
 }
 
+.student-review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.review{
+    text-align: center;
+    width: 32rem;
+    padding: 2rem;
+    p{
+        color: var(--secondary-text-clr);
+    }
+}
+.student-review-heading{
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 0 1rem;
+}
+
+.reviewer{
+    h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+.highlight-to-primary{
+    font-weight: bold;
+    color: var(--color-primary-hover);
+}
+  
+.icon-box {
+    width: 3.5rem; 
+    height: 3.5rem;
+    border-radius: 0.75rem; 
+    background-color: var(--primary-container);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease;
+}
+.icon-box .material-symbols-outlined {
+    font-size: 32px;
+    color: var(--color-primary);
+    transition: color 0.5s ease;
+}
+.card:hover .icon-box {
+    background-color: var(--color-primary);
+}
+.card:hover .material-symbols-outlined {
+    color: var(--on-primary);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.card{
+    background-color: var(--color-bg);
+    width: 350px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease,
+                transform 0.5s ease;
+    &>h2{
+        margin: 1rem 0;
+    }
+    &>p{
+        color: var(--muted-text-clr);
+        transition: color 0.5s ease;
+    }
+    &:hover{
+        box-shadow:5px 5px 5px rgb(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+        &>p{
+            color: var(--secondary-text-clr);
+        }
+    }
+}
+.way-to-learn{
+    margin: 2rem;
+    &>p{
+        color: var(--secondary-text-clr);
+    }
+}
+.underline-bar {
+    margin-top: 1rem;
+    height: 4px;             
+    width: 0;                
+    background-color: var(--color-success);
+    transition: width 0.5s ease-in-out; 
+}
+.card:hover .underline-bar {
+    width: 100%;
+}
+.clr-grade{
+    background: linear-gradient(to right, var(--color-primary), #330867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}

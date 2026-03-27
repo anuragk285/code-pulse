@@ -23,6 +23,7 @@ async function loadCourse(course_id){
     const course = xmlDoc.getElementsByTagName("course-details")[course_id];
     const c = course.getElementsByTagName("course")[0];
     const course_title = c.getElementsByTagName("title")[0].textContent;
+    const course_subtitle = c.getElementsByTagName("sub-title")[0].textContent;
     const course_description = c.getElementsByTagName("description")[0].textContent;
     const tutor = course.getElementsByTagName("tutor")[0];
     const tutor_name = tutor.getElementsByTagName("name")[0].textContent;
@@ -55,9 +56,14 @@ async function loadCourse(course_id){
         `
     }
     let course_details_html = `
-            <h1 class="course-title">${course_title}</h1>
+            <h1 class="course-title clr-grade">${course_title}</h1>
             <div class="sub-details"></div>
-            <div class="description">${course_description}</div>
+            <div class="course-sub-title">${course_subtitle}</div>
+            <div class="course-description">
+                <h2 class="clr-grade">Description</h2>
+                <p>${course_description}</p>
+            </div>
+            <h2 class="clr-grade tutor-heading">Instructor</h2>
             <div class="tutor">
                 <div class="tutor-profile">
                     <img src="${tutor_img}" alt="" class="tutor-img">
