@@ -11,12 +11,14 @@ body{
 .course-details{
     &>h1{
         font-size: 42px;
-        background: linear-gradient(to right, var(--color-primary), #330867);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        -webkit-text-fill-color: transparent;
     }
+}
+.clr-grade{
+    background: linear-gradient(to right, var(--color-primary), #330867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 .toPrimary{
     color: var(--color-primary-hover);
@@ -240,4 +242,24 @@ body{
         font-size: 12px;
     }
 }
-
+.course-sub-title{
+    margin: 1rem 0;
+}
+.course-description{
+    margin-top: 2rem;
+    width: 90%;
+    line-height: 28px;
+    &>h2{
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: var(--color-primary-hover);
+    }
+    &>p{
+        font-size: 18px;
+        color: var(--secondary-text-clr);
+    }
+    margin-bottom: 1rem;
+}
+.tutor-heading{
+    margin: 2rem 0 1rem;
+}

@@ -82,9 +82,17 @@ body{
 .tutor{
     font-size: 14px;
     line-height: 20px;
+    color: var(--secondary-text-clr);
 }
 .course-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.clr-grade{
+    background: linear-gradient(to right, var(--color-primary), #330867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
