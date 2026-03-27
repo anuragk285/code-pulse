@@ -25,6 +25,11 @@
     color: var(--primary-text-clr);
     font-size: 18px;
     font-weight: 600;
+    background: linear-gradient(to right,#30cfd0, #330867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 .description{
     color: var(--secondary-text-clr);

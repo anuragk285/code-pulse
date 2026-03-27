@@ -13,6 +13,7 @@
             <name>Sarah Drasner</name>
             <designation>Engineering Leader</designation>
             <experience>Specialist in SVG animations and scalable web architecture.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/13952972_e853.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Atomic Design Principles</title><description>Breaking UI into atoms and molecules.</description></chapter>
@@ -38,6 +39,7 @@
             <name>Stephen Grider</name>
             <designation>Full Stack Architect</designation>
             <experience>Expert in large-scale system design.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/38711620_f4c5_3.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Microservices Intro</title><description>Monolith vs Microservices.</description></chapter>
@@ -66,6 +68,7 @@
             <name>Dr. Angela Yu</name>
             <designation>Lead Instructor</designation>
             <experience>Developer and Educator.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/34123448_bea6.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Pandas Deep Dive</title><description>Cleaning datasets.</description></chapter>
@@ -90,6 +93,7 @@
             <name>Zaid Sabih</name>
             <designation>Security Researcher</designation>
             <experience>Professional penetration tester.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/6956218_3564_4.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Reconnaissance</title><description>Information gathering.</description></chapter>
@@ -117,6 +121,7 @@
             <name>Max Schwarzmüller</name>
             <designation>Freelance Developer</designation>
             <experience>Mobile Dev Expert.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/263457380_2af4.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Dart Intro</title><description>Async/Await basics.</description></chapter>
@@ -140,9 +145,10 @@
             <id>5</id>
         </course>
         <tutor>
-            <name>Striver</name>
+            <name>Abdul Bhari</name>
             <designation>Software Engineer</designation>
             <experience>SDE at Top Tier Company.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/27878376_ce40_3.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>DFS/BFS</title><description>Graph traversals.</description></chapter>
@@ -172,6 +178,7 @@
             <name>Gary Simon</name>
             <designation>UI/UX Specialist</designation>
             <experience>20 years design experience.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/611556_7029_12.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Typography</title><description>Scales and Hierarchy.</description></chapter>
@@ -196,6 +203,7 @@
             <name>Jason Cannon</name>
             <designation>Linux Admin</designation>
             <experience>Automation Expert.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/23218620_1661_5.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>YAML Intro</title><description>Workflow syntax.</description></chapter>
@@ -221,6 +229,7 @@
             <name>Hitesh Choudhary</name>
             <designation>Technical Educator</designation>
             <experience>Software Engineer.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Normalization</title><description>Database design rules.</description></chapter>
@@ -248,6 +257,7 @@
             <name>AI Agent Master</name>
             <designation>Automation Specialist</designation>
             <experience>Low-code Consultant.</experience>
+            <img>https://img-c.udemycdn.com/user/200_H/221983214_5710_4.jpg</img>
         </tutor>
         <curriculum>
             <chapter><number>1</number><title>Webhooks</title><description>Listening for data.</description></chapter>
