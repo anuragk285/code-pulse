@@ -5,7 +5,7 @@ document.getElementById("header").innerHTML = headerHtml;
 document.getElementById("footer").innerHTML = footerHtml;
 
 const username_mb = document.getElementById("username-message-box");
-const user_email_mb = document.getElementById("user-email-message-box"); // Fixed typo
+const user_email_mb = document.getElementById("user-email-message-box"); 
 const password_mb = document.getElementById("password-message-box");
 const confirm_password_mb = document.getElementById("confirm-password-message-box");
 

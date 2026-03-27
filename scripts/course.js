@@ -28,11 +28,13 @@ async function loadCourse(course_id){
     const tutor_name = tutor.getElementsByTagName("name")[0].textContent;
     const tutor_designation = tutor.getElementsByTagName("designation")[0].textContent;
     const tutor_experience = tutor.getElementsByTagName("experience")[0].textContent;
+    const tutor_img = tutor.getElementsByTagName("img")[0].textContent;
     const curriculum = course.getElementsByTagName("curriculum")[0];
     const chapters = curriculum.getElementsByTagName("chapter");
     const price = course.getElementsByTagName("price")[0];
     const new_price = course.getElementsByTagName("new-price")[0].textContent;
     const old_price = course.getElementsByTagName("old-price")[0].textContent;
+    const course_img = course.getElementsByTagName("img-src")[0].textContent;
 
     let chapter_html = "";
     for(let i=0; i<chapters.length; i++){
@@ -58,7 +60,7 @@ async function loadCourse(course_id){
             <div class="description">${course_description}</div>
             <div class="tutor">
                 <div class="tutor-profile">
-                    <img src="../images/professor1.png" alt="" class="tutor-img">
+                    <img src="${tutor_img}" alt="" class="tutor-img">
                 </div>
                 <div class="tutor-description">
                     <h2 class="tutor-name">${tutor_name}</h2>
@@ -79,4 +81,5 @@ async function loadCourse(course_id){
     `
     document.getElementsByClassName("course-details")[0].innerHTML = course_details_html;
     document.getElementsByClassName("course-prices")[0].innerHTML = course_prices_html;
+    document.getElementById("course-img").src = course_img;
 }
