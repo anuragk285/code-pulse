@@ -1,7 +1,7 @@
 CodePulse - Online Course Selling Platform
 CodePulse is a modern, responsive front-end application designed to provide a seamless interface for discovering and purchasing online courses. Built as a university project, it focuses on clean UI/UX principles and modular code architecture.
 
-You can view the live project here: code-pulse-web.netlify.app
+You can view the live project here: https://code-pulse-web.netlify.app
 
 ## Project Overview
 The primary goal of CodePulse is to bridge the gap between instructors and learners through an intuitive digital storefront. The platform features a curated selection of technical courses, detailed course descriptions, and a user-friendly navigation system.
